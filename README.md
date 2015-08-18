@@ -17,28 +17,30 @@ It was based on [atom/asar](https://github.com/atom/asar) project. First, extrac
 ## Usage
 
 ```bash
-// Install npm/node first
-npm install -g atom-flags
-atom-flags
+// Install git/node/npm first
+git clone https://github.com/wspl/atom-flags.git
+cd atom-flags
+npm install
+npm start
 ```
 
 
 In General, it will search the atom editor automatically for Windows users. If you are linux or OS X user, you should use the command "locate <path-to-app.asar>".
 
 
-#### get <key>
+#### get \<key\>
 Get a value by flag name.
 
-#### set <key> <value>
+#### set \<key\> \<value\>
 Set the value of flag or create a new flag with value.
 
-#### del <key>
+#### del \<key\>
 Remove a flag.
 
 #### list
 Show all flags.
 
-#### locate <path-to-app.asar>
+#### locate \<path-to-app.asar\>
 Set a new location of `app.asar` file.
 
 #### save

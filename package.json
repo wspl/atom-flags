@@ -1,14 +1,14 @@
 {
   "name": "atom-flags",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "A script for modifing the web-preferences of your atom-editor.",
-  "main": "entry.js",
+  "main": "bin/atom-flags",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./entry"
+    "start": "node bin/atom-flags"
   },
   "bin": {
-    "atom-flags": "./entry"
+    "atom-flags": "bin/atom-flags"
   },
   "repository": {
     "type": "git",
