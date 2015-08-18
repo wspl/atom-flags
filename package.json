@@ -1,0 +1,33 @@
+{
+  "name": "atom-flags",
+  "version": "0.0.2",
+  "description": "A script for modifing the web-preferences of your atom-editor.",
+  "main": "entry.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./entry"
+  },
+  "bin": {
+    "atom-flags": "./entry"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wspl/atom-flags.git"
+  },
+  "keywords": [
+    "atom"
+  ],
+  "author": "Plutonist",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wspl/atom-flags/issues"
+  },
+  "homepage": "https://github.com/wspl/atom-flags#readme",
+  "dependencies": {
+    "asar": "^0.7.2",
+    "babel": "^5.8.21",
+    "colors": "^1.1.2",
+    "md5": "^2.0.0",
+    "readline-sync": "^1.2.19"
+  }
+}
