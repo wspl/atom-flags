@@ -16,12 +16,14 @@ It was based on [atom/asar](https://github.com/atom/asar) project. First, extrac
 
 ## Usage
 
-```bash
+```sh
 // Install git/node/npm first
 git clone https://github.com/wspl/atom-flags.git
 cd atom-flags
 npm install
-npm start
+npm install -g babel-cli
+npm install -g babel-preset-es2015
+babel-node --presets es2015 ./lib/main.js
 ```
 
 
