@@ -22,7 +22,7 @@ git clone https://github.com/wspl/atom-flags.git
 cd atom-flags
 npm install
 npm install -g babel-cli
-npm install -g babel-preset-es2015
+npm install babel-preset-es2015
 babel-node --presets es2015 ./lib/main.js
 ```
 
